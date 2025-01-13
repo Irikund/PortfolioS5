@@ -1,0 +1,541 @@
+sql, victoriametrics, mongodd
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>Portfolio Maxime Martin</title>
+	<meta content="" name="description">
+	<meta content="" name="keywords">
+
+	<!-- Favicons -->
+	<link href="assets/img/favicon.png" rel="icon">
+	<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com" rel="preconnect">
+	<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+
+	<!-- Vendor CSS Files -->
+	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+	<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+	<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+	<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+	<!-- Main CSS File -->
+	<link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+	<header id="header" class="header dark-background d-flex flex-column">
+		<i class="header-toggle d-xl-none bi bi-list"></i>
+
+		<div class="profile-img">
+			<img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
+		</div>
+
+		<a href="index.html" class="logo d-flex align-items-center justify-content-center">
+			<h1 class="sitename">Maxime MARTIN</h1>
+		</a>
+
+		<div class="social-links text-center">
+			<a href="https://www.linkedin.com/in/maxime-martin-966188250/" class="linkedin"><i
+					class="bi bi-linkedin"></i></a>
+		</div>
+
+		<nav id="navmenu" class="navmenu">
+			<ul>
+				<li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+				<li><a href="#about"><i class="bi bi-person navicon"></i> À propos</a></li>
+				<li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Parcours</a></li>
+				<li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Projets</a></li>
+				<li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+			</ul>
+		</nav>
+
+	</header>
+
+	<main class="main">
+
+		<section id="hero" class="hero section dark-background">
+
+			<img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="">
+
+			<div class="container" data-aos="fade-up" data-aos-delay="100">
+				<h2>Maxime MARTIN</h2>
+				<p>Je suis <span class="typed" data-typed-items="Alternant, Développeur, Etudiant"></span><span
+						class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
+						class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
+				</p>
+			</div>
+
+		</section>
+
+		<section id="about" class="about section">
+
+			<div class="container section-title" data-aos="fade-up">
+				<h2>À propos</h2>
+				<p>
+					Bonjour, je m'appelle Maxime Martin et je suis actuellement étudiant en troisième année de BUT Informatique à l'IUT de Lannion.
+					Je suis aussi en alternance chez Nokia où je réalise une application de monitoring dans une équipe DevOps. 
+				</p>
+			</div>
+
+			<div class="container" data-aos="fade-up" data-aos-delay="100">
+
+				<div class="row gy-4 justify-content-center">
+					<div class="col-lg-4">
+						<img src="assets/img/my-profile-img.jpg" class="img-fluid" alt="">
+					</div>
+					<div class="col-lg-8 content">
+						<h2>Développeur Web Fullstack.</h2>
+						<p class="fst-italic py-3">
+							Passionné par le développement web, je conçois et réalise des applications dynamiques et performantes, 
+        					en veillant à offrir une expérience utilisateur fluide et intuitive
+						</p>
+						<div class="row">
+							<div class="col-lg-6">
+								<ul>
+									<li><i class="bi bi-chevron-right"></i> <strong>Site web:</strong>
+										<span>www.example.com</span></li>
+									<li><i class="bi bi-chevron-right"></i> <strong>Téléphone:</strong> <span>+33 7 83 74 46 30</span></li>
+									<li><i class="bi bi-chevron-right"></i> <strong>Ville:</strong> <span>Lannion, France</span></li>
+								</ul>
+							</div>
+							<div class="col-lg-6">
+								<ul>
+									<li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>20</span></li>
+									<li><i class="bi bi-chevron-right"></i> <strong>Dîplome:</strong> <span>BUT en cours d'acquisition</span>
+									</li>
+									<li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+										<span>maxime.martin2704@gmail.com</span></li>
+								</ul>
+							</div>
+						</div>
+						<p class="py-3">
+							Toujours en quête d'apprentissage, je m'intéresse aux nouvelles technologies et aux bonnes pratiques 
+							en matière de développement web. Je travaille avec des frameworks modernes comme React et Node.js, 
+							tout en maîtrisant les fondamentaux HTML, CSS et TypeScript. Fort de plusieurs projets académiques 
+							, j'ai acquis des compétences solides en conception de sites web et en gestion de bases 
+							de données.
+						</p>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+
+		<section id="skills" class="skills section light-background">
+
+			<div class="container section-title" data-aos="fade-up">
+				<h2>Compétences</h2>
+			</div>
+
+			<div class="container" data-aos="fade-up" data-aos-delay="100">
+
+				<div class="row skills-content skills-animation">
+
+					<div class="col-lg-3">
+
+						<div class="progress">
+							<span class="skill"><span>HTML</span></span>
+							<div class="progress-bar-wrap">
+								<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+									aria-valuemax="100"></div>
+							</div>
+						</div>
+
+						<div class="progress">
+							<span class="skill"><span>CSS</span></span>
+							<div class="progress-bar-wrap">
+								<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+									aria-valuemax="100"></div>
+							</div>
+						</div>
+
+						<div class="progress">
+							<span class="skill"><span>JavaScript</span></span>
+							<div class="progress-bar-wrap">
+								<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+									aria-valuemax="100"></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3">
+
+						<div class="progress">
+							<span class="skill"><span>React</span></span>
+							<div class="progress-bar-wrap">
+								<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+									aria-valuemax="100"></div>
+							</div>
+						</div>
+
+						<div class="progress">
+							<span class="skill"><span>TypeScript</span></span>
+							<div class="progress-bar-wrap">
+								<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+									aria-valuemax="100"></div>
+							</div>
+						</div>
+
+						<div class="progress">
+							<span class="skill"><span>PHP</span></span>
+							<div class="progress-bar-wrap">
+								<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+									aria-valuemax="100"></div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-lg-3">
+
+						<div class="progress">
+							<span class="skill"><span>Python</span></span>
+							<div class="progress-bar-wrap">
+								<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+									aria-valuemax="100"></div>
+							</div>
+						</div>
+
+						<div class="progress">
+							<span class="skill"><span>C</span></span>
+							<div class="progress-bar-wrap">
+								<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+									aria-valuemax="100"></div>
+							</div>
+						</div>
+
+						<div class="progress">
+							<span class="skill"><span>Java</span></span>
+							<div class="progress-bar-wrap">
+								<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+									aria-valuemax="100"></div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-lg-3">
+
+						<div class="progress">
+							<span class="skill"><span>SQL</span></span>
+							<div class="progress-bar-wrap">
+								<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+									aria-valuemax="100"></div>
+							</div>
+						</div>
+
+						<div class="progress">
+							<span class="skill"><span>Victoria Metrics</span></span>
+							<div class="progress-bar-wrap">
+								<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+									aria-valuemax="100"></div>
+							</div>
+						</div>
+
+						<div class="progress">
+							<span class="skill"><span>MongoDB</span></span>
+							<div class="progress-bar-wrap">
+								<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+									aria-valuemax="100"></div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+
+		<section id="resume" class="resume section">
+
+			<div class="container section-title" data-aos="fade-up">
+				<h2>Parcours</h2>
+				<p>
+					Découvrez mon parcours académique et professionnel, ainsi que les compétences techniques et projets que j'ai développés au fil des années. 
+					Mon expérience en développement web Fullstack m'a permis de travailler sur divers types d'applications, 
+					tout en adoptant les bonnes pratiques de codage et de gestion de projet.
+				</p>
+			</div>
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+						<h3 class="resume-title">Alternance - Stage</h3>
+
+						<div class="resume-item pb-0">
+							<h4>Nokia</h4>
+							<h5>2024 - 2025</h5>
+							<p><em>Développeur logiciel en alternance, j'ai acquis une expérience significative dans le développement d'applications robustes et évolutives.
+								J'ai participé à toutes les phases du cycle de développement, de la conception à la mise en production, en travaillant sur des projets concrets en collaboration avec des équipes pluridisciplinaires.</em></p>
+							<ul>
+								<li>Développement de fonctionnalités backend en utilisant Node.js et Express</li>
+								<li>Conception et intégration d'interfaces utilisateurs avec React et TailWind</li>
+								<li>Participation à la gestion de projet Agile (Scrum) : réunions quotidiennes, sprints</li>
+								<li>Mise en place de tests unitaires et fonctionnels pour garantir la qualité du code</li>
+								<li>Maintenance et amélioration continue des applications existantes</li>
+							</ul>
+						</div>
+
+						<h3 class="resume-title">Education</h3>
+						<div class="resume-item">
+							<h4>BUT Informatique</h4>
+							<h5>2022 - 2025</h5>
+							<p><em>IUT de Lannion, Université de Rennes 1</em></p>
+							<p> Le BUT Informatique propose une formation polyvalente en développement logiciel, réseaux, bases de données et gestion de projets. 
+								Au cours de cette formation, j'ai acquis des compétences solides en programmation (Java, Python, C), en conception d'applications web 
+								(HTML, CSS, JavaScript, Bash) ainsi qu'en gestion de bases de données relationnelles.</p>
+						</div>
+
+						<div class="resume-item">
+							<h4>Baccalauréat Scientifique, option Mathématiques et NSI</h4>
+							<h5>2019 - 2022</h5>
+							<p><em>Lycée Sainte Thérèse, Quimper, France</em></p>
+							<p>Ce cursus m'a permis de développer une forte appétence pour les sciences et la technologie. 
+								L'option NSI m'a offert des bases solides en algorithmie.</p>
+						</div>
+
+					</div>
+
+					<div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+						<h3 class="resume-title">Experience professionnel</h3>
+						<div class="resume-item">
+							<h4>Vendeur en boutique</h4>
+							<h5>2023</h5>
+							<p><em>Maison Georges Larnicol M.O.F, Quimper, France</em></p>
+							<ul>
+								<li>Accueil et conseil des clients sur les différents produits artisanaux de la boutique</li>
+								<li>Gestion des stocks et réapprovisionnement des rayons afin d'assurer la disponibilité des produits</li>
+								<li>Participation à la mise en avant des produits en vitrine et à l'agencement de la boutique</li>
+								<li>Travail en équipe pour assurer un service client de qualité et atteindre les objectifs de vente</li>
+								<li>Encaissement et suivi des ventes avec rigueur</li>
+							</ul>
+						</div>
+
+						<div class="resume-item">
+							<h4>Rénovation bâtiment industriel</h4>
+							<h5>2022</h5>
+							<p><em>Ouest Electricité Cornouaille, Quimper, France</em></p>
+							<ul>
+								<li>Préparation des surfaces avant peinture : nettoyage, ponçage et application de sous-couches</li>
+								<li>Application de peintures intérieures et extérieures sur différentes surfaces (murs, plafonds, structures métalliques)</li>
+								<li>Nettoyage des surfaces et des espaces de travail pour garantir un environnement propre et sécurisé après chaque intervention</li>
+								<li>Travail en coordination avec les autres corps de métier pour respecter les délais et assurer un résultat de qualité</li>
+							</ul>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<section id="services" class="services section">
+
+			<div class="container section-title" data-aos="fade-up">
+				<h2>Projets</h2>
+				<p>Tout au long de mon parcours en BUT, j'ai eu l'opportunité de participer à plusieurs projets passionnants, tant académiques que personnels. 
+					Ces projets m'ont permis de développer des compétences en développement web, en gestion de bases de données et en méthodologies agiles, 
+					tout en mettant en pratique des technologies variées. Ils reflètent ma capacité à résoudre des problèmes concrets et à m'adapter aux besoins des utilisateurs.</p>
+			</div>
+
+			<div class="container">
+
+				<div class="row gy-4">
+
+					<div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+						<div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
+						<div>
+							<h4 class="title"><a href="competence1.html" class="stretched-link">Compétence 1</a></h4>
+							<h5>Réaliser un développement d'application</h5>
+							<p class="description">Cette compétence est plutôt accès sur le développement et tout ce qui l'entoure
+								c'est à dire concevoir, coder, tester, et intégrer.</p>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+						<div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
+						<div>
+							<h4 class="title"><a href="competence2.html" class="stretched-link">Compétence 2</a></h4>
+							<h5>Optimiser des applications informatiques</h5>
+							<p class="description">Cette compétence est axée sur l'optimisation d'applications informatiques sur différents critères : 
+								temps d'exécution, précision et consommation de ressources.</p>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+						<div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
+						<div>
+							<h4 class="title"><a href="competence3.html" class="stretched-link">Compétence 3</a></h4>
+							<h5>Administrer des systèmes informatiques communicants complexes</h5>
+							<p class="description">Cette compétence permet d'installer, configurer, mettre à disposition,
+								maintenir en conditions opérationnelles des infrastructures, des services et des réseaux et optimiser le système informatique d'une organisation.
+							</p>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+						<div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
+						<div>
+							<h4 class="title"><a href="competence4.html" class="stretched-link">Compétence 4</a></h4>
+							<h5>Gérer des données de l'information</h5>
+							<p class="description">Cette compétence permet de concevoir, gérer, administrer et d'exploiter une base de données.
+								Ainsi toutes les données seront accessibles et ordonnées pour un bon pilotage de l'entreprise.
+							</p>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+						<div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
+						<div>
+							<h4 class="title"><a href="competence5.html" class="stretched-link">Compétence 5</a></h4>
+							<h5>Conduite de projet</h5>
+							<p class="description">Satisfaire les besoins des utilisateurs au regard de la chaîne de valeur du client,
+								organiser et piloter un projet informatique avec des méthodes classiques ou agiles.
+							</p>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+						<div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>
+						<div>
+							<h4 class="title"><a href="competence6.html" class="stretched-link">Compétence 6</a></h4>
+							<h5>Travailler dans une équipe informatique</h5>
+							<p class="description">Acquérir, développer et exploiter les aptitudes nécessaires pour travailler efficacement dans une équipe informatique.</p>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<section id="contact" class="contact section">
+
+			<div class="container section-title" data-aos="fade-up">
+				<h2>Contact</h2>
+				<p>N'hésitez pas à me contacter pour toute demande d'informations, de collaboration ou de projet. 
+					Je suis disponible pour échanger et répondre rapidement à vos besoins.</p>
+			</div>
+
+			<div class="container" data-aos="fade-up" data-aos-delay="100">
+
+				<div class="row gy-4">
+
+					<div class="col-lg-5">
+
+						<div class="info-wrap">
+							<div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+								<i class="bi bi-geo-alt flex-shrink-0"></i>
+								<div>
+									<h3>Adresse</h3>
+									<p>3 Rue Jeanne D'Arc, Lannion, France</p>
+								</div>
+							</div>
+
+							<div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+								<i class="bi bi-telephone flex-shrink-0"></i>
+								<div>
+									<h3>Téléphone</h3>
+									<p>+33 7 83 74 46 30</p>
+								</div>
+							</div>
+
+							<div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+								<i class="bi bi-envelope flex-shrink-0"></i>
+								<div>
+									<h3>Mail</h3>
+									<p>maxime.martin2704@gmail.com</p>
+								</div>
+							</div>
+
+							<iframe 
+								src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10893.11066666033!2d-3.464461!3d48.733801!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4811d9a3a7f74d0b%3A0x2f92c4dbfcfa9d31!2sLannion%2C%2022300%20Lannion%2C%20France!5e0!3m2!1sfr!2sfr!4v1676961268712!5m2!1sfr!2sfr" 
+								frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" 
+								loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+							</iframe>
+
+						</div>
+					</div>
+
+					<div class="col-lg-7">
+						<form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+							data-aos-delay="200">
+							<div class="row gy-4">
+
+								<div class="col-md-6">
+									<label for="name-field" class="pb-2">Nom</label>
+									<input type="text" name="name" id="name-field" class="form-control" required="">
+								</div>
+
+								<div class="col-md-6">
+									<label for="email-field" class="pb-2">Mail</label>
+									<input type="email" class="form-control" name="email" id="email-field" required="">
+								</div>
+
+								<div class="col-md-12">
+									<label for="subject-field" class="pb-2">Sujet</label>
+									<input type="text" class="form-control" name="subject" id="subject-field"
+										required="">
+								</div>
+
+								<div class="col-md-12">
+									<label for="message-field" class="pb-2">Contenu</label>
+									<textarea class="form-control" name="message" rows="10" id="message-field"
+										required=""></textarea>
+								</div>
+
+								<div class="col-md-12 text-center">
+									<div class="loading">Chargement</div>
+									<div class="error-message"></div>
+									<div class="sent-message">Votre message à bien été envoyé</div>
+
+									<button type="submit">Envoyer le mail</button>
+								</div>
+
+							</div>
+						</form>
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+	</main>
+
+	<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+			class="bi bi-arrow-up-short"></i></a>
+
+	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/vendor/php-email-form/validate.js"></script>
+	<script src="assets/vendor/aos/aos.js"></script>
+	<script src="assets/vendor/typed.js/typed.umd.js"></script>
+	<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+	<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+	<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+	<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+	<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+	<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
